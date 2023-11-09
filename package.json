@@ -1,0 +1,15 @@
+{
+  "name": "ts-to-mp4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yao",
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "progress": "^2.0.3"
+  },
+  "bin": {
+    "ts_convert": "./converter.js"
+  }
+}
