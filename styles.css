@@ -1,0 +1,47 @@
+#drop_zone {
+  border: 2px dashed #0087f7;
+  border-radius: 5px;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#conversion_progress {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+}
+
+#message {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: none; /* Hidden by default */
+}
+
+.file-container {
+  margin-bottom: 20px;
+}
+
+.file-progress {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.message.success {
+  background-color: #4caf50; /* Green background for success message */
+}
+
+.message.error {
+  background-color: #f44336; /* Red background for error message */
+}
+
+.hidden {
+  display: none;
+}

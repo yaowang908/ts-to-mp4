@@ -1,15 +1,25 @@
 {
   "name": "ts-to-mp4",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "author": "Yao",
   "license": "MIT",
   "dependencies": {
+    "async": "^3.2.5",
+    "drag-drop": "^7.2.0",
     "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0",
     "fluent-ffmpeg": "^2.1.2",
     "progress": "^2.0.3"
   },
+  "scripts": {
+    "start": "electron ."
+  },
   "bin": {
     "ts_convert": "./converter.js"
+  },
+  "devDependencies": {
+    "electron": "^27.0.4",
+    "electron-packager": "^17.1.2"
   }
 }
